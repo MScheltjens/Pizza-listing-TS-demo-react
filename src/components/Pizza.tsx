@@ -1,4 +1,4 @@
-import PizzaCss from "../../styles/Pizza.module.css";
+import PizzaCss from "./Pizza.module.css";
 
 interface Pizza {
   id: number;

@@ -1,7 +1,7 @@
 import pizzas from "./data/pizzas.json";
 import Pizza from "./components/Pizza";
 import Cart from "./components/Cart";
-import AppCSS from "../styles/App.module.css";
+import AppCSS from "./App.module.css";
 import PizzaSVG from "./svg/pizza.svg";
 
 const App = () => {
