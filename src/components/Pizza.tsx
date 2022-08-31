@@ -1,3 +1,5 @@
+import PizzaCss from "../../styles/Pizza.module.css";
+
 interface Pizza {
   id: number;
   name: string;
@@ -11,7 +13,7 @@ interface Props {
 
 const Pizza: React.FC<Props> = ({ pizza: { name, description, price } }) => {
   return (
-    <li>
+    <li className={PizzaCss.container}>
       <h2>{name}</h2>
       <p>{description}</p>
       <p>{price}</p>
