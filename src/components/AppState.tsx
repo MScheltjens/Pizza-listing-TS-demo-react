@@ -4,7 +4,7 @@ interface Props {
   children: JSX.Element;
 }
 
-interface CartItem {
+export interface CartItem {
   id: number;
   name: string;
   price: number;
